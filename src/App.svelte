@@ -80,7 +80,7 @@
               {/if}
               <a class="text-pseudo" href={"https://github.com/" + login}>@{login}</a>
               {#if company}
-                <a class="text-company" href={"https://github.com/" + company}>{company}</a>
+                <a class="text-company" href={"https://github.com/" + company.slice(1)}>{company}</a>
               {/if}
             </div>
           </div>
