@@ -105,7 +105,7 @@
           </div>
           <div class="card-other">
             {#if blog}
-              <a href={""+blog} class="card-other__item">
+              <a href={" "+blog} class="card-other__item">
                 <svg
                   width="35"
                   height="35"
