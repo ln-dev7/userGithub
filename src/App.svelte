@@ -155,7 +155,7 @@
         </div>
       {/if}
     </div>
-    <a class="main-coffee" href="buymeacoffee.com/lndev">
+    <a class="main-coffee" href="https://buymeacoffee.com/lndev">
       <span>buy me a coffee</span></a
     >
   </div>
