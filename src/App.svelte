@@ -60,10 +60,12 @@
       <h1>
         Find a <a href="https://github.com/ln-dev7/userGithub">GitHub</a> profile
       </h1>
+    <form on:submit|preventDefault={search}>
       <div class="main-header__search">
-        <input type="text" placeholder="Entrez le pseudo" bind:value={pseudo} />
-        <button on:click={search}> Search </button>
+            <input type="text" placeholder="Entrez le pseudo" bind:value={pseudo} />
+            <button on:click={search}> Search </button>
       </div>
+    </form>
     </div>
     <div class="main-body">
       {#if exist}
